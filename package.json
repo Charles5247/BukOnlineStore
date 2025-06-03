@@ -1,20 +1,8 @@
 {
   "name": "campusmarketvendor",
-  "version": "0.0.0",
   "private": true,
-  "description": "",
-  "homepage": "https://github.com/Charles5247/BukOnlineStore#readme",
-  "bugs": {
-    "url": "https://github.com/Charles5247/BukOnlineStore/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Charles5247/BukOnlineStore.git"
-  },
-  "license": "ISC",
-  "author": "",
+  "version": "0.0.0",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "start": "vite",
@@ -23,7 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@chec/commerce.js": "^1.0.0",
+    "@chec/commerce.js": "^2.8.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.3",
@@ -41,6 +29,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "typescript": "^5.0.2",
-    "vite": "^6.3.5"
+    "vite": "^4.3.9"
   }
 }
